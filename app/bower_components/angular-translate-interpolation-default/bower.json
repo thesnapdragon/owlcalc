@@ -1,0 +1,18 @@
+{
+  "name": "angular-translate-interpolation-default",
+  "version": "0.1.1",
+  "main": "./angular-translate-interpolation-default.js",
+  "dependencies": {
+    "angular": "1.0.7",
+    "angular-translate": "~0.9.4"
+  },
+  "gitHead": "0ce4808079304dae0f9743077fd75e59264751e2",
+  "readme": "# bower-angular-translate-interpolation-default\n#\nangular-translate-interpolation-default bower package\n\n### Installation\n\n````\n$ bower install angular-translate-interpolation-default\n````\n",
+  "readmeFilename": "README.md",
+  "_id": "angular-translate-interpolation-default@0.1.1",
+  "description": "angular-translate-interpolation-default bower package",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PascalPrecht/bower-angular-translate-interpolation-default.git"
+  }
+}
