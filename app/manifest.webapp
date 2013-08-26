@@ -1,5 +1,5 @@
 {
-    "version": "1.0",
+    "version": "1.0.1",
     "name": "OwlCalcTest",
     "launch_path": "/index.html",
     "description": "OwlCalc is a calculator, that is simple like a notepad",
@@ -13,8 +13,22 @@
     },
     "developer": {
         "name": "Milán Unicsovics",
-        "url": "http://thesnapdragon.blogspot.com"
+        "url": "http://thesnapdragon.bplaced.net"
     },
     "installs_allowed_from": ["*"],
-    "default_locale": "en"
+    "default_locale": "en",
+    "locales": {
+        "en": {
+            "description": "This is a simple calculator, that can calculate just every equations that you typed in!",
+            "developer": {
+                "url": "https://github.com/thesnapdragon/owlcalc"
+            }
+        },
+        "hu": {
+            "description": "Ez egy egyszerű számológép, amely szinte minden egyenletet megold, amit beírsz!",
+            "developer": {
+                "url": "https://github.com/thesnapdragon/owlcalc"
+            }
+        }
+    }
 }

@@ -14,7 +14,7 @@ angular.module('owlcalcApp', ['pascalprecht.translate', 'angular-gestures'])
   .config(['$translateProvider', function ($translateProvider) {
     $translateProvider.translations('en-US', {
         'GREETING': 'Hello, this is OwlCalc!',
-        'DESCRIPTION': 'This is a simple calculator, that can calculate equations that you typed in!',
+        'DESCRIPTION': 'This is a simple calculator, that can calculate just every equations that you typed in!',
         'EXAMPLES': 'Examples',
         'TYPE_HERE': 'Type here',
         'DELETE_HISTORY': 'Delete history',

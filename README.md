@@ -4,6 +4,8 @@
 
 OwlCalc is a Firefox OS app: a calculator, that is simple like a notepad
 
+Check on [Firefox Marketplace](https://marketplace.firefox.com/app/owlcalc/)
+
 ## Usage
 
 To calculate an equation simply type with the phone's default keyboard into the input field.

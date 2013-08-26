@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title></title>
+    <title>OwlCalc</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -36,7 +36,7 @@
     <section role="region">
         <header>
             <menu type="toolbar">
-              <a href="#"><span class="icon icon-delete" ng-tap="deletehistory()" hm-hold="whatIsThis('deleteHistory')">delete</span></a>
+              <a href="#"><span class="icon icon-delete" ng-click="deletehistory()" hm-hold="whatIsThis('deleteHistory')">delete</span></a>
             </menu>
             <h1>OwlCalc</h1>
         </header>
@@ -57,8 +57,8 @@
                 <li>function f(x, y) = x ^ y &rarr; &lt;ENTER&gt; <i>// function stored</i></li>
                 <li>f(2, 3) &rarr; &lt;ENTER&gt; <i>// 8</i></li>
                 <li>help &rarr; &lt;ENTER&gt; <i>// {{ 'THIS_HELP' | translate }}</i></li>
-                <li><img src="images/swipe-right.png" alt="swiperight" /> &rarr; &lt;ENTER&gt; <i>// {{ 'SWIPE_RIGHT' | translate }}</i></li>
-                <li><img src="images/swipe-left.png" alt="swipeleft"/> &rarr; &lt;ENTER&gt; <i>// {{ 'SWIPE_LEFT' | translate }}</i></li>
+                <li><img src="images/swipe-right.png" alt="swiperight" /> &rarr; <i>// {{ 'SWIPE_RIGHT' | translate }}</i></li>
+                <li><img src="images/swipe-left.png" alt="swipeleft"/> &rarr; <i>// {{ 'SWIPE_LEFT' | translate }}</i></li>
             </ul>
             </div>
             <div class="span12" id="history" ng-hide="initial">
