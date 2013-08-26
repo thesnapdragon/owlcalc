@@ -14,13 +14,14 @@
         <!-- build:css({.tmp,app}) styles/main.css -->
         <link rel="stylesheet" href="styles/bootstrap.css">
         <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/shared/transitions.css">
+        <link rel="stylesheet" href="styles/shared/cross_browser.css">
+        <link rel="stylesheet" href="styles/shared/util.css">
         <!-- endbuild -->
         <link rel="stylesheet" href="styles/shared/style/headers.css">
         <link rel="stylesheet" href="styles/shared/style/input_areas.css">
-        <link rel="stylesheet" href="styles/shared/transitions.css">
         <link rel="stylesheet" href="styles/shared/style/status.css">
-        <link rel="stylesheet" href="styles/shared/cross_browser.css">
-        <link rel="stylesheet" href="styles/shared/util.css">
+
 </head>
   <body ng-app="owlcalcApp" ng-controller="MainCtrl" ng-init="init()" hm-swipe-left="historyForward()" hm-swipe-right="historyBack()" focus-input>
     <!--[if lt IE 7]>
@@ -45,7 +46,7 @@
     <div class="container-fluid" id="content">
         <div class="row-fluid">
             <div id="help" ng-show="initial">
-            <h2>{{ 'GREETING' | translate }}</h2>
+            <h4>{{ 'GREETING' | translate }}</h4>
             <p>{{ 'DESCRIPTION' | translate }}</p>
             {{ 'EXAMPLES' | translate }}:
             <ul>

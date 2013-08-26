@@ -24,7 +24,7 @@ exclude = [];
 reporters = ['progress'];
 
 // web server port
-port = 8080;
+port = 9000;
 
 // cli runner port
 runnerPort = 9100;
@@ -47,7 +47,7 @@ autoWatch = false;
 // - Safari (only Mac)
 // - PhantomJS
 // - IE (only Windows)
-browsers = ['Chrome'];
+browsers = ['Firefox'];
 
 // If browser does not capture in given timeout [ms], kill it
 captureTimeout = 5000;
