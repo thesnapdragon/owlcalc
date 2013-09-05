@@ -4,7 +4,14 @@
 
 OwlCalc is a Firefox OS app: a calculator, that is simple like a notepad
 
-Check on [Firefox Marketplace](https://marketplace.firefox.com/app/owlcalc/)
+**Features:**
+
+* Simple usage
+* Scientific mode does not different from basic mode
+* Gesture based control
+* Calculation history management
+
+Available: Check on [Firefox Marketplace](https://marketplace.firefox.com/app/owlcalc/)
 
 ## Usage
 
@@ -21,6 +28,10 @@ Some examples:
 * f(2, 3) -> // *8*
 
 By swiping left or right of the screen you can navigate in the calculation history. Besides, with the *help* command a quick help will be showed for you.
+
+## Sites
+
+* [Hungarian homepage](http://linuxtutorialok.blogspot.hu/2013/09/owlcalc.html)
 
 ## Used technologies
 
