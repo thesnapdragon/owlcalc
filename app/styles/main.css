@@ -59,7 +59,7 @@ section[role="region"] > header:first-child .icon.icon-delete {
 }
 
 #history p {
-    margin: 0px;
+    margin: 0;
     padding: 0.5em;
     -webkit-transition: all 0.5s linear;
        -moz-transition: all 0.5s linear;
@@ -77,8 +77,16 @@ section[role="region"] > header:first-child .icon.icon-delete {
     padding-left: 3em;
 }
 
+#history p:nth-child(2n+0):active {
+    background: #B1B4BD;
+}
+
 #history p:nth-child(2n+1) {
     background: #F5DFCA;
+}
+
+#history p:nth-child(2n+1):active {
+    background: #DCC6B1;
 }
 
 .newline {

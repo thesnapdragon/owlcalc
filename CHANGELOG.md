@@ -12,3 +12,11 @@
 <li>Package is much more smaller</li>
 <li>Hungarian language support</li>
 </ul>
+
+# 1.1
+
+<strong>Changes:</strong>
+<ul>
+<li>Edit equation with hold gesture</li>
+<li>Focus on input only when clicked into history</li>
+</ul>

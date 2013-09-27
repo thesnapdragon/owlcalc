@@ -47,6 +47,10 @@ angular.module('owlcalcApp').controller('MainCtrl', ['$scope', '$translate', fun
         setTimeout(function (){ content.scrollTop = content.scrollHeight; }, 10);
     };
 
+    $scope.selectEquation = function(index) {
+        $scope.newline = $scope.history[index];
+    };
+
     $scope.clearinput = function() {
         $scope.newline = '';
         $scope.historyPointer = $scope.history.length;

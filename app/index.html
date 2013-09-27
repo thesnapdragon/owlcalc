@@ -23,7 +23,7 @@
         <link rel="stylesheet" href="styles/shared/style/status.css">
 
 </head>
-  <body ng-app="owlcalcApp" ng-controller="MainCtrl" ng-init="init()" hm-swipe-left="historyForward()" hm-swipe-right="historyBack()" focus-input>
+  <body ng-app="owlcalcApp" ng-controller="MainCtrl" ng-init="init()" hm-swipe-left="historyForward()" hm-swipe-right="historyBack()">
     <!--[if lt IE 7]>
       <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
     <![endif]-->
@@ -43,7 +43,7 @@
     </section>
 
     <!-- Add your site or application content here -->
-    <div class="container-fluid" id="content">
+    <div class="container-fluid" id="content" focus-input>
         <div class="row-fluid">
             <div id="help" ng-show="initial">
             <h4>{{ 'GREETING' | translate }}</h4>
@@ -59,10 +59,11 @@
                 <li>help &rarr; &lt;ENTER&gt; <i>// {{ 'THIS_HELP' | translate }}</i></li>
                 <li><img src="images/swipe-right.png" alt="swiperight" /> &rarr; <i>// {{ 'SWIPE_RIGHT' | translate }}</i></li>
                 <li><img src="images/swipe-left.png" alt="swipeleft"/> &rarr; <i>// {{ 'SWIPE_LEFT' | translate }}</i></li>
+                <li><img src="images/hold.png" alt="hold"/> &rarr; <i>// {{ 'HOLD' | translate }}</i></li>
             </ul>
             </div>
             <div class="span12" id="history" ng-hide="initial">
-                 <p ng-repeat="calc in history">{{calc}}</p>
+                 <p ng-repeat="calc in history" hm-hold="selectEquation($index)">{{calc}}</p>
             </div>
         </div>
     </div>
@@ -80,6 +81,7 @@
     <section class="hidden" role="status">
     </section>
 
+    <script src="bower_components/jquery/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
 
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
@@ -93,7 +95,6 @@
 
         <!-- build:js scripts/plugins.js -->
         <script src="bower_components/angular-gestures/gestures.min.js"></script>
-        <script src="bower_components/jquery/jquery.js"></script>
         <script src="bower_components/mathjs/math.min.js"></script>
         <script src="bower_components/angular-translate/angular-translate.js"></script>
         <script src="bower_components/angular-translate-interpolation-default/angular-translate-interpolation-default.js"></script>

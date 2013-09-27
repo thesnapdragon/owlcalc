@@ -20,7 +20,8 @@ angular.module('owlcalcApp', ['pascalprecht.translate', 'angular-gestures'])
         'DELETE_HISTORY': 'Delete history',
         'THIS_HELP': 'This help',
         'SWIPE_RIGHT': 'Previous equation',
-        'SWIPE_LEFT': 'Next equation'
+        'SWIPE_LEFT': 'Next equation',
+        'HOLD': 'Edit equation'
     });
 
     var huTranslation = {
@@ -31,7 +32,8 @@ angular.module('owlcalcApp', ['pascalprecht.translate', 'angular-gestures'])
         'DELETE_HISTORY': 'Előzmény törlése',
         'THIS_HELP': 'Ezek a példa parancsok',
         'SWIPE_RIGHT': 'Előző egyenlet',
-        'SWIPE_LEFT': 'Következő egyenlet'
+        'SWIPE_LEFT': 'Következő egyenlet',
+        'HOLD': 'Egyenlet szerkesztése'
     };
     $translateProvider.translations('hu', huTranslation);
     $translateProvider.translations('hu-HU', huTranslation);
